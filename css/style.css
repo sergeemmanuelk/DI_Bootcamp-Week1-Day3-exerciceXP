@@ -1,0 +1,89 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.full {
+    width: 50%;
+    max-width: 1000px;
+    min-height: auto;
+    background-color: rgb(245, 239, 231);
+    margin: 0px;
+    display: grid;
+    grid-template-columns: 3fr 5fr;
+}
+
+.avatar {
+    vertical-align: middle;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.left {
+    background-color:lightblue;
+    text-align: center;
+    padding: 20px;
+    color: #fff;
+}
+
+.picture {
+    margin-bottom: 15px;
+}
+
+.contact-name h1, .contact-name p{
+    margin-bottom: 15px;
+}
+
+.contact-details .phone, .contact-details .email, .contact-details .address {
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.social-network {
+    display: flex;
+    flex-direction: column;
+}
+
+.social-network .fa-linkedin, .social-network .fa-twitter,  .social-network .fa-facebook{
+    font-size: 40px;
+    margin: 10px 10px;
+}
+
+.right {
+    padding: 20px;
+}
+
+.profile h1, .profile p, .education h1, .education h3, .education p {
+    margin-bottom: 15px;
+}
+
+.education .education-list .list-item {
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+
+.skills h1 {
+    margin-bottom: 15px;
+}
+
+.skills .skills-list, .education .education-list {
+    list-style-type: none;
+}
+
+.skills .skills-list .list-item {
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+
+.experience h1, .experience p, .experience h3 {
+    margin-bottom: 15px;
+}
